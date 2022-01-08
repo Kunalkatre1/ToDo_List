@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: thistle;
+}
+
+#first_para {
+  color: blue;
+}
+
+.coolTitle {
+  text-align: center;
+  font-family: "Oswald", Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: -1px -1px 0 firebrick, -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick, -4px -4px 0 firebrick, -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick, -7px -7px 0 firebrick, -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.delete_button {
+  margin-left: 1em;
+  padding: 4px;
+  border-style: none;
+  border-radius: 10em;
+  background-color: inherit;
+  font-weight: lighter;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.delete_button:active {
+  background-color: maroon;
+}
+
+.delete_button:hover {
+  background-color: rgb(233, 155, 155);
+}
+
+.container {
+  text-align: center;
+}
+
+li {
+  font-size: 20px;
+}
+
+#list_container {
+  font-size: large;
+  border-radius: 10px;
+  background-color: rgb(223, 217, 171);
+  margin-top: 10px;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+#input_items {
+  border: none;
+  border-radius: 10px;
+  padding: 4px;
+}
+
+#enter {
+  background-color: rgb(166, 212, 119);
+  border-radius: 10px;
+  border-style: none;
+  padding: 10px;
+  padding-left: 6em;
+  padding-right: 6em;
+}
+
+#enter:hover {
+  background-color: rgb(56, 122, 56);
+}
+
+#enter:active {
+  background-color: rgb(21, 77, 35);
+}
+
+.entry_container {
+  background-color: lightgray;
+  border-radius: 10px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  align-content: center;
+}
+
+.footer_container {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(88, 90, 81);
+  color: white;
+  text-align: center;
+}
+
+.header_container {
+  background-color: khaki;
+  border-radius: 5px;
+  width: 50%;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
